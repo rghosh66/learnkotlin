@@ -1,8 +1,7 @@
-
 //This program find outs the frequency of letters in month of the year
 fun main() {
 
-    var months = arrayOf("January", "February", "March", "April", "May", "June",
+    val months = arrayOf("January", "February", "March", "April", "May", "June",
         "July","September","October", "November", "December")
     var charCount = IntArray (26)
 
@@ -21,7 +20,7 @@ fun main() {
         }
 
     }
-    println("Char distribution of letter in months")
+    println("Char distribution  frequency of letter in months")
     var j : Int = 0
     for (i in 'a'..'z'){
         println( "Char $i is -- ${charCount[j++]}")
